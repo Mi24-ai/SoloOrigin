@@ -44,7 +44,7 @@ export const LoyaltyView: React.FC<LoyaltyViewProps> = ({
         <div className="flex items-center justify-center gap-2">
           <Crown className="w-4 h-4 text-[#C5A059]" />
           <span className="text-[#C5A059] uppercase tracking-[0.3em] text-xs font-sans font-semibold">
-            Swarna Circle Membership
+            SOLORIGIN REWARDS
           </span>
         </div>
         <h2 className="text-3xl sm:text-4xl md:text-5xl font-serif font-light text-[#3E2723]">
