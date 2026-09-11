@@ -64,13 +64,13 @@ export const Navbar: React.FC<NavbarProps> = ({
           >
             <div className="w-11 h-11 rounded-lg overflow-hidden shadow-md border border-[#C5A059]/40 group-hover:scale-105 transition-transform">
               <img
-                src="/image/Craftea.jpg"
-                alt="Craftéa Logo"
+                src="/image/logo.jpg"
+                alt="Solorigin Logo"
                 className="w-full h-full object-cover"
               />
             </div>
             <span className="font-serif font-bold text-lg md:text-xl tracking-wider text-[#3E2723]">
-              SoloOrigin
+              SOLORIGIN
             </span>
           </div>
 
