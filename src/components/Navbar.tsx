@@ -70,7 +70,7 @@ export const Navbar: React.FC<NavbarProps> = ({
               />
             </div>
             <span className="font-serif font-bold text-lg md:text-xl tracking-wider text-[#3E2723]">
-              SOLORIGIN
+              SOLOROGIN
             </span>
           </div>
 
