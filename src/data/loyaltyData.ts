@@ -20,7 +20,7 @@ export const LOYALTY_TIERS: LoyaltyTierInfo[] = [
     perks: ['Diskon 10% seluruh transaksi', 'Gratis ongkos kirim asuransi', 'Akses pre-order motif langka']
   },
   {
-    name: 'Premium',
+    name: 'Platinum',
     minPoints: 1500,
     perks: ['Diskon 15% seluruh transaksi', 'Kurator personal 1-on-1', 'Undangan kunjungan sanggar mitra']
   }
