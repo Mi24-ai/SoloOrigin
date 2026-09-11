@@ -38,15 +38,15 @@ export const Navbar: React.FC<NavbarProps> = ({
   }, []);
 
   const primaryNavItems: { id: ActiveTab; label: string; icon: React.ElementType }[] = [
-    { id: 'home', label: 'Heritage', icon: Compass },
-    { id: 'matcher', label: 'Matcher', icon: Sparkles },
-    { id: 'marketplace', label: 'Market', icon: ShoppingBag },
-    { id: 'shops', label: 'Store', icon: Store },
+    { id: 'home', label: 'SOLOROGIN Home', icon: Compass },
+    { id: 'matcher', label: 'SOLOROGIN Matcher', icon: Sparkles },
+    { id: 'marketplace', label: 'SOLOROGIN Market', icon: ShoppingBag },
+    { id: 'shops', label: 'SOLOROGIN Store', icon: Store },
   ];
 
   const moreNavItems: { id: ActiveTab; label: string; icon: React.ElementType }[] = [
-    { id: 'blockchain', label: 'Heritage Proof', icon: ShieldCheck },
-    { id: 'partnership', label: 'Partnership', icon: Handshake },
+    { id: 'blockchain', label: 'SOLOROGIN Passpor', icon: ShieldCheck },
+    { id: 'partnership', label: 'SOLOROGIN Partner', icon: Handshake },
   ];
 
   const isMoreActive = moreNavItems.some((item) => item.id === activeTab);
@@ -153,7 +153,7 @@ export const Navbar: React.FC<NavbarProps> = ({
               title="Swarna Circle"
             >
               <Crown className="w-3.5 h-3.5 text-[#C5A059]" />
-              <span>{loyaltyPoints.toLocaleString('id-ID')} Poin</span>
+              <span>{loyaltyPoints.toLocaleString('id-ID')} Poin </span>
             </button>
 
             {/* AI Batik Advisor Button */}
