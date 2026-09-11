@@ -38,15 +38,15 @@ export const Navbar: React.FC<NavbarProps> = ({
   }, []);
 
   const primaryNavItems: { id: ActiveTab; label: string; icon: React.ElementType }[] = [
-    { id: 'home', label: 'SOLOROGIN Home', icon: Compass },
-    { id: 'matcher', label: 'SOLOROGIN Matcher', icon: Sparkles },
-    { id: 'marketplace', label: 'SOLOROGIN Market', icon: ShoppingBag },
-    { id: 'shops', label: 'SOLOROGIN Store', icon: Store },
+    { id: 'home', label: 'Home', icon: Compass },
+    { id: 'matcher', label: 'Matcher', icon: Sparkles },
+    { id: 'marketplace', label: 'Market', icon: ShoppingBag },
+    { id: 'shops', label: 'Store', icon: Store },
   ];
 
   const moreNavItems: { id: ActiveTab; label: string; icon: React.ElementType }[] = [
-    { id: 'blockchain', label: 'SOLOROGIN Passpor', icon: ShieldCheck },
-    { id: 'partnership', label: 'SOLOROGIN Partner', icon: Handshake },
+    { id: 'blockchain', label: 'Passpor', icon: ShieldCheck },
+    { id: 'partnership', label: 'Partnership', icon: Handshake },
   ];
 
   const isMoreActive = moreNavItems.some((item) => item.id === activeTab);
