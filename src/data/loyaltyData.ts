@@ -5,22 +5,22 @@ export const POINTS_PER_RUPIAH = 1 / 10000;
 
 export const LOYALTY_TIERS: LoyaltyTierInfo[] = [
   {
-    name: 'Sentana',
+    name: 'Basic',
     minPoints: 0,
     perks: ['Akses katalog & filosofi lengkap', 'Notifikasi motif baru sesuai karakter']
   },
   {
-    name: 'Priyayi',
+    name: 'Silver',
     minPoints: 200,
     perks: ['Diskon 5% kotak kayu jati Jepara', 'Undangan preview koleksi terbatas']
   },
   {
-    name: 'Bangsawan',
+    name: 'Gold',
     minPoints: 600,
     perks: ['Diskon 10% seluruh transaksi', 'Gratis ongkos kirim asuransi', 'Akses pre-order motif langka']
   },
   {
-    name: 'Ningrat',
+    name: 'Premium',
     minPoints: 1500,
     perks: ['Diskon 15% seluruh transaksi', 'Kurator personal 1-on-1', 'Undangan kunjungan sanggar mitra']
   }
