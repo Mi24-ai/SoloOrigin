@@ -77,7 +77,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
               <li>
                 <button onClick={() => onNavigate('loyalty')} className="hover:text-[#C5A059] transition-colors flex items-center gap-2 cursor-pointer">
                   <Crown className="w-3.5 h-3.5 text-[#C5A059]" />
-                  <span>Swarna Circle</span>
+                  <span>Solorogin Rewards</span>
                 </button>
               </li>
               <li>
@@ -108,7 +108,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
                 <MapPin className="w-3 h-3 text-[#C5A059]" /> Pekalongan: Batik Sekar Jagad & Pesisir
               </li>
               <li className="flex items-center gap-2">
-                <MapPin className="w-3 h-3 text-[#C5A059]" /> Jepara: Tatah Ukir Kayu Jati Pusaka
+                <MapPin className="w-3 h-3 text-[#C5A059]" /> Kudus: Batik Kudus Kretek Herritage
               </li>
             </ul>
           </div>
