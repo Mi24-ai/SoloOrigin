@@ -1,6 +1,6 @@
 import React from 'react';
 import { ActiveTab } from '../types';
-import { Sparkles, ShieldCheck,ShoppingBag, Heart, MapPin, Store, Compass, Handshake } from 'lucide-react';
+import { Sparkles, ShieldCheck, ShoppingBag, Heart, MapPin, Store, Compass, Handshake, Crown } from 'lucide-react';
 
 interface FooterProps {
   onNavigate: (tab: ActiveTab) => void;
@@ -17,20 +17,21 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
           {/* Col 1: Brand & Philosophy */}
           <div className="space-y-4">
             <div className="flex items-center gap-3">
-              <div className="w-10 h-10 rounded-full bg-[#C5A059] flex items-center justify-center text-[#2C1810] font-bold shadow-md">
-    <img
-      src="/image/Craftea.jpg"
-      alt="Craftéa Logo"
-      className="w-full h-full object-cover"
-    />
+              <div className="w-11 h-11 rounded-lg overflow-hidden shadow-md border border-[#C5A059]/40">
+                <img
+                  src="/image/logo.jpg"
+                  alt="Solorogin Logo"
+                  className="w-full h-full object-cover"
+                />
               </div>
-              <span className="font-serif text-lg text-[#FDFBF7] tracking-widest uppercase">
-                Craftéa
+              <span className="font-serif font-bold text-lg text-[#FDFBF7] tracking-widest uppercase">
+                Solorogin
               </span>
             </div>
             <p className="text-xs text-[#D7CCC8] font-serif leading-relaxed">
-              Platform pelestarian Batik dan Kerajinan Tangan adiluhung Jawa yang menghubungkan generasi 
-              modern dengan mahakarya pembatik keraton dan teknologi keaslian blockchain.
+              Platform digital yang menghadirkan Batik Nusantara lengkap dengan cerita, filosofi,
+              tata cara pemakaian, hingga ragam jenisnya — menghubungkan pengrajin keraton dengan
+              generasi modern melalui teknologi keaslian blockchain.
             </p>
             <div className="text-[11px] text-[#C5A059] font-mono">
               Polygon Smart Contract: 0x7F2B...c94A0
@@ -46,37 +47,43 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
               <li>
                 <button onClick={() => onNavigate('home')} className="hover:text-[#C5A059] transition-colors flex items-center gap-2 cursor-pointer">
                   <Compass className="w-3.5 h-3.5 text-[#C5A059]" />
-                  <span>Craftéa Heritage</span>
+                  <span>Solorogin Heritage</span>
                 </button>
               </li>
               <li>
                 <button onClick={() => onNavigate('matcher')} className="hover:text-[#C5A059] transition-colors flex items-center gap-2 cursor-pointer">
                   <Sparkles className="w-3.5 h-3.5 text-[#C5A059]" />
-                  <span>Craftéa Matcher</span>
+                  <span>Solorogin Matcher</span>
                 </button>
               </li>
               <li>
                 <button onClick={() => onNavigate('marketplace')} className="hover:text-[#C5A059] transition-colors flex items-center gap-2 cursor-pointer">
                   <ShoppingBag className="w-3.5 h-3.5 text-[#C5A059]" />
-                  <span>Craftéa Market</span>
+                  <span>Solorogin Market</span>
                 </button>
               </li>
-             <li>
-                <button onClick={() => onNavigate('marketplace')} className="hover:text-[#C5A059] transition-colors flex items-center gap-2 cursor-pointer">
+              <li>
+                <button onClick={() => onNavigate('shops')} className="hover:text-[#C5A059] transition-colors flex items-center gap-2 cursor-pointer">
                   <Store className="w-3.5 h-3.5 text-[#C5A059]" />
-                  <span>Craftéa Store</span>
+                  <span>Solorogin Store</span>
                 </button>
               </li>
               <li>
                 <button onClick={() => onNavigate('blockchain')} className="hover:text-[#C5A059] transition-colors flex items-center gap-2 cursor-pointer">
                   <ShieldCheck className="w-3.5 h-3.5 text-[#C5A059]" />
-                  <span>Craftéa Heritage Proof</span>
+                  <span>Solorogin Passpor</span>
+                </button>
+              </li>
+              <li>
+                <button onClick={() => onNavigate('loyalty')} className="hover:text-[#C5A059] transition-colors flex items-center gap-2 cursor-pointer">
+                  <Crown className="w-3.5 h-3.5 text-[#C5A059]" />
+                  <span>Swarna Circle</span>
                 </button>
               </li>
               <li>
                 <button onClick={() => onNavigate('partnership')} className="hover:text-[#C5A059] transition-colors flex items-center gap-2 cursor-pointer">
                   <Handshake className="w-3.5 h-3.5 text-[#C5A059]" />
-                  <span>Craftéa Partnership</span>
+                  <span>Solorogin Partnership</span>
                 </button>
               </li>
             </ul>
@@ -125,7 +132,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
 
         {/* Bottom Bar */}
         <div className="pt-8 border-t border-[#3E2723] flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-[#A89685] font-sans">
-          <p>© 2026 PT Craftéa Nusantara. Dilindungi Hak Cipta Kebudayaan Indonesia & UNESCO Heritage.</p>
+          <p>© 2026 PT Solorogin Nusantara. Dilindungi Hak Cipta Kebudayaan Indonesia & UNESCO Heritage.</p>
           <div className="flex items-center gap-2">
             <span>Dibuat dengan cinta Nusantara</span>
             <Heart className="w-3.5 h-3.5 text-[#C5A059] fill-current" />
