@@ -200,7 +200,7 @@ export const PartnershipView: React.FC<PartnershipViewProps> = () => {
           </span>
         </div>
         <h2 className="text-3xl sm:text-4xl md:text-5xl font-serif font-light text-[#3E2723]">
-          Craftéa <span className="italic font-normal">Partnership</span>
+          SOLOROGIN <span className="italic font-normal">Partnership</span>
         </h2>
         <p className="text-xs sm:text-sm text-[#5D4037] font-serif leading-relaxed">
           Daftarkan sanggar atau toko pengrajin Anda untuk bergabung dengan ekosistem Craftéa
